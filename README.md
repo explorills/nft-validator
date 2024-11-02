@@ -18,20 +18,16 @@ Optimized bitmap-based validator contract for efficient NFT collection validatio
 * Capability to process large batches
 * Enhanced event emission with detailed validation data
 
+  Each event includes:
+* Operator address
+* Number of NFTs affected
+* List of affected NFT IDs
+
 ## Technical Specifications
 * Solidity Version: ^0.8.0
 * EVM Version: London
 * Optimizer: Enabled (200 runs)
 * Network: Flare
-
-## License
-BSD-3-Clause License
-
-## Contact
-* main: explorills.com
-* contact: info@explorills.com
-* security contact: info@explorills.ai
-* explorills community 2024
 
 ## Security Considerations
 * No external contract dependencies except for NFT interface
@@ -53,11 +49,16 @@ explorills_NftValidator
     └── getAddressInfo
 ```
 
-Each event includes:
-* Operator address
-* Number of NFTs affected
-* List of affected NFT IDs
+## License
+BSD-3-Clause License
+
+## Contact
+
+- main: [explorills.com](https://explorills.com)
+- mint: [mint.explorills.com](https://mint.explorills.com)
+- contact: info@explorills.com
+- security contact: info@explorills.ai
 
 ---
 
-* explorills community 2024
+- explorills community 2024
