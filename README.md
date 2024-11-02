@@ -18,7 +18,7 @@ Optimized bitmap-based validator contract for efficient NFT collection validatio
 * Capability to process large batches
 * Enhanced event emission with detailed validation data
 
-  Each event includes:
+### Each event includes:
 * Operator address
 * Number of NFTs affected
 * List of affected NFT IDs
