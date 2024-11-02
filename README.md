@@ -1,5 +1,3 @@
-# README
-
 # explorills_NftValidator Contract
 Optimized bitmap-based validator contract for efficient NFT collection validation with batch processing capabilities
 
