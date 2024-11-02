@@ -1,5 +1,6 @@
 # explorills_NftValidator Contract
-Optimized bitmap-based validator contract for efficient NFT collection validation with batch processing capabilities
+
+Optimized bitmap-based validator contract for ERC721 NFT collection validation
 
 ## General Functionality
 1. Validates ERC721 NFTs from the explorills collection using efficient bitmap storage
