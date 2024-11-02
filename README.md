@@ -1,2 +1,65 @@
-# nft-validator
-Optimized bitmap-based NFT validator contract for explorills collection
+# README
+
+# explorills_NftValidator Contract
+Optimized bitmap-based validator contract for efficient NFT collection validation with batch processing capabilities
+
+## General Functionality
+1. Validates ERC721 NFTs from the explorills collection using efficient bitmap storage
+2. Processes large batches of NFTs (up to 300) in a single transaction
+3. Maintains permanent validation status for NFTs regardless of ownership changes
+
+## Main Functions
+* `validateAllBlueMinerals`: Validates all unvalidated ERC721 NFTs owned by the caller
+* `manualBatchValidate`: Executor Address only to validate specific NFT by IDs
+* `manualBatchUnvalidate`: Executor Address only to unvalidate specific NFT by IDs
+* `getGeneralInfo`: View total validated and unvalidated NFTs
+* `getAddressInfo`: View validated and unvalidated NFTs for specific address
+
+## Technical Features
+* Bitmap-based storage for gas optimization
+* Capability to process large batches
+* Enhanced event emission with detailed validation data
+
+## Technical Specifications
+* Solidity Version: ^0.8.0
+* EVM Version: London
+* Optimizer: Enabled (200 runs)
+* Network: Flare
+
+## License
+BSD-3-Clause License
+
+## Contact
+* main: explorills.com
+* contact: info@explorills.com
+* security contact: info@explorills.ai
+* explorills community 2024
+
+## Security Considerations
+* No external contract dependencies except for NFT interface
+
+## Contract Architecture
+```
+explorills_NftValidator
+├── Storage
+│   ├── validationBitmap (mapping)
+│   ├── totalValidatedNFTs
+│   ├── contractOwner
+│   └── paused status
+├── Main Functions
+│   ├── validateAllBlueMinerals
+│   ├── manualBatchValidate
+│   └── manualBatchUnvalidate
+└── View Functions
+    ├── getGeneralInfo
+    └── getAddressInfo
+```
+
+Each event includes:
+* Operator address
+* Number of NFTs affected
+* List of affected NFT IDs
+
+---
+
+* explorills community 2024
