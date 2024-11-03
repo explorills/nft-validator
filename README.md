@@ -25,10 +25,11 @@ Optimized bitmap-based validator contract for ERC721 NFT collection validation
 * List of affected NFT IDs
 
 ## Technical Specifications
-* Solidity Version: ^0.8.0
+* Contract Name: explorills_NftValidator
+* Compiler Version: v0.8.24
 * EVM Version: London
-* Optimizer: Enabled (200 runs)
-* Network: Flare
+* Optimization: Enabled (200 runs)
+* Network: [Flare](https://flare.network/)
 
 ## Security Considerations
 * No external contract dependencies except for NFT interface
