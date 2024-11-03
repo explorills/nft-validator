@@ -24,7 +24,7 @@ Optimized bitmap-based validator contract for ERC721 NFT collection validation
 * Number of NFTs affected
 * List of affected NFT IDs
 
-## Technical Specifications
+## Build and Deployment Settings
 * Contract Name: explorills_NftValidator
 * Compiler Version: v0.8.24
 * EVM Version: London
