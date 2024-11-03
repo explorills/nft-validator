@@ -60,10 +60,13 @@ BSD-3-Clause License
 - contact: info@explorills.com
 - security contact: info@explorills.ai
 
-## Find at
+## Contract
+- 0x0E3a65c21059361eBca4Ce5aCFFb21615d1f12F1
+  
+### Find at
 
 - [Flarescan.com](https://flarescan.com/address/0x0E3a65c21059361eBca4Ce5aCFFb21615d1f12F1/contract/14/code?chainid=14)
-- [Flare-explorer](https://flare-explorer.flare.network/address/0x0E3a65c21059361eBca4Ce5aCFFb21615d1f12F1?tab=contract)
+- [Flare-explorer](https://flare-explorer.flare.network/address/0x0E3a65c21059361eBca4Ce5aCFFb21615d1f12F1?tab=contract_code)
 
 ---
 
